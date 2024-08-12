@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="assets/css/lib/bootstrap.css" />
+  <link rel="stylesheet" href="assets/css/lib/animate.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/media.css" />
+  <!--<link rel="stylesheet" href="assets/css/font-ar.css">-->
+  <link rel="stylesheet" href="assets/css/font-en.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <div class="contain flex-data mx-auto">
+        <a class="navbar-brand" href="#">Navbar</a>
+        
+        <button class="navbar-toggler" 
+        type="button" 
+        data-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+          </li>
+  
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" 
+            href="#" 
+            id="navbarDropdown" 
+            role="button" 
+            data-bs-toggle="dropdown" 
+            aria-haspopup="true" 
+            aria-expanded="false">
+              Catgories
+            </a>
+  
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+  
+              <a class="dropdown-item" href="#">Another action</a>
+  
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+  
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  
+          <button class="btn my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <header>
+    <div class="container">
+      <div class="contain general-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/card1.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/card2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/card3.webp" class="d-block w-100" alt="Slide 3">
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" 
+          href="#carouselExampleIndicators" 
+          role="button" 
+          data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="carousel-control-next" 
+          href="#carouselExampleIndicators" 
+          role="button" 
+          data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="form flex-data">
+    <div class="container">
+      <div class="contain">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+
+            <input type="email" 
+            class="form-control" 
+            id="exampleInputEmail1" 
+            aria-describedby="emailHelp" 
+            placeholder="Enter email">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+
+            <input type="password" 
+            class="form-control" 
+            id="exampleInputPassword1" 
+            placeholder="Password">
+          </div>
+
+          <div class="form-group form-check">
+            <input type="checkbox" 
+            class="form-check-input" 
+            id="exampleCheck1">
+
+            <label class="form-check-label" for="exampleCheck1">Remember me</label>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="cards">
+    <div class="container">
+      <div class="contain general-section flex-data">
+        <div class="row mt-5">
+          <div class="single-card mx-auto col-lg-3 col-md-8 col-12">
+            <img src="assets/images/card1.jpg" class="card-img-top" alt="image" loading="lazy" height="250">
+  
+            <div class="card-body text-center">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn">Click</a>
+            </div>
+          </div>
+  
+          <div class="single-card mx-auto col-lg-3 col-md-8 col-12">
+            <img src="assets/images/card2.jpg" class="card-img-top" alt="image" loading="lazy" height="250">
+  
+            <div class="card-body text-center">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn">Click</a>
+            </div>
+          </div>
+  
+          <div class="single-card mx-auto col-lg-3 col-md-8 col-12">
+            <img src="assets/images/card3.webp" class="card-img-top" alt="image" loading="lazy" height="250">
+  
+            <div class="card-body text-center">
+              <h5 class="card-title">Title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn">Click</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Bootstrap JS and its dependencies -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
